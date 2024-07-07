@@ -1,1 +1,749 @@
-# maddyeditss.github.io
+<html><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<link rel="stylesheet" href="./style.css">
+
+<!-- <link href="<https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css>" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"> -->
+
+```
+
+<!-- Font Awesome -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<!-- <link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/> -->
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
+<!-- MDB -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css" rel="stylesheet">
+
+```
+<!--open graph meta tags for better SEO -->
+
+<!-- Primary Meta Tags -->
+
+```
+
+<title>Mayukh </title>
+<meta name="title" content="Mayukh Pankaj">
+<meta name="description" content="Hi, I am Mayukh and welcome to my portfolio. ">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mayukhpankaj.github.io/">
+<meta property="og:title" content="Mayukh Pankaj">
+<meta property="og:description" content="Hi, I am Mayukh and welcome to my portfolio. ">
+<meta property="og:image" content="https://i.imgur.com/00pf4BU.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://mayukhpankaj.github.io/">
+<meta property="twitter:title" content="Mayukh Pankaj">
+<meta property="twitter:description" content="Hi, I am Mayukh and welcome to my portfolio. ">
+<meta property="twitter:image" content="https://i.imgur.com/00pf4BU.png">
+
+<link rel="shortcut icon" href="./favicon.ico">
+
+<style>INPUT:-webkit-autofill,SELECT:-webkit-autofill,TEXTAREA:-webkit-autofill{animation-name:onautofillstart}INPUT:not(:-webkit-autofill),SELECT:not(:-webkit-autofill),TEXTAREA:not(:-webkit-autofill){animation-name:onautofillcancel}@keyframes onautofillstart{}@keyframes onautofillcancel{}</style></head>
+
+<body>
+
+```
+<div class="container">
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#about" onclick="closeNav()">About</a>
+        <a href="#skills" onclick="closeNav()">Skills</a>
+        <a href="<https://drive.google.com/file/d/1LUGJ-gZsgzgpxi05parvKTRvHndZ4Mnl/view?usp=sharing>" target="blank" onclick="closeNav()"> Resume</a>
+        <a href="#projects" onclick="closeNav()">Projects </a>
+        <a href="#codeforces" onclick="closeNav()">Codeforces</a>
+        <a href="#contact" onclick="closeNav()">Contact</a>
+      </div>
+
+    <span class="burger" style="font-size:30px;cursor:pointer;position: fixed;" onclick="openNav()">☰</span>
+
+    <section id="landing">
+        <div class="row vertical-center ">
+            <div id="drop-down" class="col-lg-8  col-md-6 col-sm-12 text-center">
+                <h1 class="display-3">Mayukh </h1>
+                <p class="text-center">
+                    Working to make world a better place.
+                </p>
+            </div>
+            <div id="fade-in" class="col-lg-4 col-md-6 col-sm-12 text-center "><img id="dp" class="img-fluid rounded-circle" src="<https://avatars.githubusercontent.com/u/40158577?v=4>" width="60%"></div>
+        </div>
+    </section>
+
+    <section id="about">
+
+      <!--dark theme toggle -->
+        <div class="theme-switch-wrapper" style="margin-left: 40%;">
+            <label class="theme-switch" for="checkbox">
+         <input type="checkbox" id="checkbox" onclick="darkToggle()">
+         <div class="slider round"></div>
+       </label>&nbsp;
+
+         <br>
+       </div>
+       <em class="text-center" style="font-size: 14px; padding-left: 38%;">Try dark mode</em>
+        <br>
+
+        <h5 class="display-5"> About Me </h5>
+        <br>
+        <div class="row">
+         <div class="col-lg-8 wrap text-left">
+
+        <p>
+        Hi, I am Mayukh Pankaj. I am passionate about computer science and love development. I like to solve real world problems, solutions that can create impact, help people.
+        </p>
+
+        <a href="<https://drive.google.com/file/d/1rFmesLrUybC402aynarWhlsOjWnZW9iQ/view?usp=sharing>" target="blank" class="btn btn-outline-dark" style="background-color:rgba(212, 206, 206, 0.623);">Resume &nbsp; <i class="fa-solid fa-file-lines"></i></a>
+
+        <span id="contact" style="margin: -100px;">
+          <!--────social media links─────-->
+            <span class="social-media center">
+
+              <a href="<https://github.com/mayukhpankaj>" target="_blank"><i class="fab fa-github"></i></a>
+
+            <a href="<https://www.linkedin.com/in/mayukh-pankaj/>" target="_blank"> <i class="fa-brands fa-linkedin"></i> </a>
+            <!-- <a href="<https://maycodes.medium.com/>" target="_blank"><i class="fab fa-medium"></i></a> -->
+            <a href="mailto:mayukhpankaj30@gmail.com" target="_blank"> <i class="fa fa-envelope"></i></a>
+
+            </span>
+
+          </span>
+
+    </div></div></section>
+        <br>
+
+    <section id="skills" class="interests pt-5 pb-5">
+
+        <h6 class="display-6"> Tech Stack </h6>
+
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-4  col-6 mt-4 mt-md-0">
+                <div class="icon-box">
+                    <img class="tech-icon" src="./icons/cpp.png">
+                        <h3>C++</h3>
+                 </div>
+             </div>
+
+             <div class="col-lg-3 col-md-4  col-6 mt-4 mt-md-0">
+            <div class="icon-box">
+                <img class="tech-icon" src="./icons/js.png">
+                    <h3>javascript</h3>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-4  col-6 mt-4 mt-md-0">
+          <div class="icon-box">
+              <img class="tech-icon" src="./icons/node.png">
+                  <h3>Node</h3>
+          </div>
+       </div>
+
+        <div class="col-lg-3 col-md-4  col-6 mt-4 mt-md-0">
+          <div class="icon-box">
+              <img class="tech-icon" src="./icons/react.png">
+              <h3>React</h3>
+          </div>
+      </div>
+
+        <div class="col-lg-3 col-md-4  col-6 mt-4 mt-md-0">
+            <div class="icon-box">
+                <img class="tech-icon" src="./icons/python.png">
+                <h3>Python</h3>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4  col-6 mt-4 mt-md-0">
+          <div class="icon-box">
+              <img class="tech-icon" src="./icons/mongo.png">
+              <h3>MongoDB</h3>
+          </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4  col-6 mt-4 mt-md-0">
+        <div class="icon-box">
+            <img class="tech-icon" src="./icons/sql.svg">
+            <h3>SQL</h3>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4  col-6 mt-4 mt-md-0">
+      <div class="icon-box">
+          <img class="tech-icon" src="./icons/cloud.png">
+          <h3>Cloud</h3>
+      </div>
+  </div>
+
+    <div class="col-lg-3 col-md-4  col-6 mt-4 mt-md-0">
+      <div class="icon-box">
+          <img class="tech-icon" src="./icons/css.webp">
+          <h3>CSS</h3>
+      </div>
+  </div>
+
+        <div class="col-lg-3 col-md-4  col-6 mt-4 mt-md-0">
+          <div class="icon-box">
+              <img class="tech-icon" src="./icons/php.png">
+              <h3>PHP</h3>
+          </div>
+      </div>
+
+        <div class="col-lg-3 col-md-4  col-6 mt-4 mt-md-0">
+            <div class="icon-box">
+                <img class="tech-icon" src="./icons/arduino.png">
+                <h3>Arduino</h3>
+            </div>
+        </div>
+
+        <h1 id="education" class="display-6 pt-5 mb-5"> Education </h1>
+    <div class="row">
+
+        <div class="col-lg-2 col-md-2 col-2  "><img class="img-fluid rounded-circle" src="./images/bitm.png"></div>
+
+        <div class="col-lg-10 col-md-8 col-10 ">
+        <h4>B.tech Computer Science &amp; Engineering </h4>
+        <p>Birla Institute of Technology Mesra <br> 2020 - 2024</p>
+        </div>
+        <br>
+
+     </div>
+
+        <div class="row pt-5">
+            <div class="col-lg-2 col-md-2 col-2  "><img class="img-fluid rounded-circle" src="./images/iiitt.png"></div>
+
+            <div class="col-lg-10 col-md-8 col-10 ">
+            <h4>B.tech Electronics &amp; Communication Engineering </h4>
+            <p>Indian Institute of Information Technology Tiruchirappalli <br> 2019 - 2020 ( dropped out ) </p>
+            </div>
+
+        </div>
+
+        <div class="row pt-5">
+            <div class="col-lg-2 col-md-2 col-2  "><img class="img-fluid rounded-circle" src="./images/jvm.png"></div>
+
+            <div class="col-lg-10 col-md-8 col-10 ">
+            <h4>AISSCE  </h4>
+            <p>Jawahar Vidya Mandir Shyamali Ranchi  <br> 2010 - 2019</p>
+            </div>
+
+        </div>
+
+        <section id="projects">
+        <h1 class="display-4 pt-5 mb-5"> Projects </h1>
+
+    <div class="row">
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+
+          <div class="col mb-4">
+            <div class="card h-100">
+              <!--Card image-->
+              <div class="view overlay">
+                <img class="card-img-top" src="<https://media.licdn.com/dms/image/D4D12AQFQ0Km6ryv2pg/article-cover_image-shrink_720_1280/0/1684268425268?e=1721865600&amp;v=beta&amp;t=fXMYx7Af8kmH0wsw9AXd8tPrMj6NAK1_jNL66h4qYLs>" alt="Card image cap">
+                <!-- <a href="<https://github.com/mayukhpankaj/vaccinater>">
+                  <div class="mask rgba-white-slight"></div>
+                </a> -->
+              </div>
+
+              <div class="card-content pt-3 ps-3">
+
+                <div class="icon"><span class=""><span>Nodejs</span></span></div>
+                <div class="icon"><span class="flas"><span>Mongo</span></span></div>
+                <div class="icon"><span class="twilio"><span>React</span></span></div>
+
+            </div>
+
+              <!--Card content-->
+              <div class="card-body">
+
+                <!--Title-->
+                <h4 class="card-title">QR Checkin</h4>
+                <!--Text-->
+                <p class="card-text">handled 4000+ footfalls at Annual cultural fest of BIT Mesra !
+                </p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+
+                <a href="<https://www.linkedin.com/pulse/how-we-handled-4000-footfalls-annual-cultural-fest-bit-mayukh-pankaj/>" class="btn btn-md">Read more</a>
+
+              </div>
+
+            </div>
+            <!-- Card -->
+
+          </div>
+
+              <!-- Card -->
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <!--Card image-->
+                <div class="view overlay">
+                  <img class="card-img-top" src="<https://github.com/mayukhpankaj/vaccinater/raw/main/static/Screenshot%20(48).png>" alt="Card image cap">
+                  <!-- <a href="<https://github.com/mayukhpankaj/vaccinater>">
+                    <div class="mask rgba-white-slight"></div>
+                  </a> -->
+                </div>
+
+                <div class="card-content pt-3 ps-3">
+
+                    <!-- react-text: 10 --> <!-- /react-text -->
+                 <!-- react-text: 10 --> <!-- /react-text -->
+                 <div class="icon"><span class="python"><span></span></span></div>
+                 <div class="icon"><span class="flas"><span>Flask</span></span></div>
+                 <div class="icon"><span class="twilio"><span>Twilio</span></span></div>
+
+              </div>
+
+                <!--Card content-->
+                <div class="card-body">
+
+                  <!--Title-->
+                  <h4 class="card-title">Vaccinater</h4>
+                  <!--Text-->
+                  <p class="card-text">vaccine availability Notification in your location on email &amp; sms!
+                    Go get your shot !
+                  </p>
+                  <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+
+                  <a href="<https://github.com/mayukhpankaj/vaccinater>" class="btn btn-md">Read more</a>
+
+                </div>
+
+              </div>
+              <!-- Card -->
+
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <!--Card image-->
+                <div class="view overlay">
+                  <img class="card-img-top" src="<https://user-images.githubusercontent.com/40158577/150653620-6d077bab-df4f-42d0-902d-6603dbac7f7f.png>" alt="Card image cap">
+                  <!-- <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                  </a> -->
+                </div>
+
+                <div class="card-content pt-3 ps-3">
+
+                    <!-- react-text: 10 --> <!-- /react-text -->
+                    <div class="icon"><span class="react-native"><span>React Native</span></span></div>
+                    <div class="icon"><span class="firebase"><span>Firebase</span></span></div>
+
+              </div>
+
+                <!--Card content-->
+                <div class="card-body">
+                  <!--Title-->
+                  <h4 class="card-title">BIT Events</h4>
+
+                  <!--Text-->
+                  <p class="card-text">
+                   Crossplatform app for University's clubs and events
+                  </p>
+                  <br>
+                  <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                  <a href="<https://github.com/mayukhpankaj/BIT-Clubs>" type="button" class="btn btn-md">Read more</a>
+
+                </div>
+
+              </div>
+
+              <!-- Card -->
+
+                   <!-- Card -->
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <!--Card image-->
+                <div class="view overlay">
+                  <img class="card-img-top" src="<https://camo.githubusercontent.com/89c4f2818f3ae324005711414acad179f731695aa05de196f3e67046652ed9d0/68747470733a2f2f692e696d6775722e636f6d2f6a7854684351312e706e67>" alt="Card image cap">
+
+                </div>
+
+                <div class="card-content pt-3 ps-3">
+
+                    <!-- react-text: 10 --> <!-- /react-text -->
+                    <div class="icon"><span class="Soup">Beautiful Soup<span></span></span></div>
+                    <div class="icon"><span class="Selenium">Selenium<span></span></span></div>
+
+              </div>
+
+                <!--Card content-->
+                <div class="card-body">
+                  <!--Title-->
+                  <h4 class="card-title">Woogle</h4>
+
+                  <!--Text-->
+                  <p class="card-text">Job &amp; Intern scraping web app.
+                    To demonstrate how to get data without any provided APIs.
+                  </p>
+                  <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                  <a href="<https://github.com/mayukhpankaj/woogle>" type="button" class="btn  btn-md">Read more</a>
+
+                </div>
+
+              </div>
+
+              <!-- Card -->
+
+                    <!-- Card -->
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <!--Card image-->
+                <div class="view overlay">
+                  <img class="card-img-top cropped1" src="./images/covidhotspot.gif" height="80%" alt="Card image cap">
+
+                </div>
+
+                <div class="card-content pt-3 ps-3">
+
+                    <!-- react-text: 10 --> <!-- /react-text -->
+                    <div class="icon"><span class="orange"> &nbsp; API<span></span></span></div>
+                    <div class="icon"><span class="react-native"> &nbsp; Maps<span></span></span></div>
+
+              </div>
+
+                <!--Card content-->
+                <div class="card-body">
+                  <!--Title-->
+                  <h5 class="card-title">Covid Hotspots</h5>
+
+                  <!--Text-->
+                  <p class="card-text">
+                    One of the first Covid-19 data webapp with geolocation support.
+                  </p>
+                  <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+
+                  <a href="<https://github.com/mayukhpankaj/Covid-19-Hotspots>" type="button" class="btn btn-md">Read more</a>
+
+                </div>
+
+              </div>
+
+              <!-- Card -->
+
+                             <!-- Card -->
+            </div>
+            <div class="col mb-4" id="gif">
+              <div class="card h-100">
+                <!--Card image-->
+                <div class="view overlay">
+                  <img class="card-img-top cropped2" src="./images/wrobot.gif" height="50%" alt="Card image cap">
+                  <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <div class="card-content ps-3">
+
+                    <!-- react-text: 10 --> <!-- /react-text -->
+                    <div class="icon"><span class="flask"> &nbsp; LEGO Mindstorm<span></span></span></div>
+
+              </div>
+
+                <!--Card content-->
+                <div class="card-body">
+                  <!--Title-->
+                  <h6 class="card-title ">World Robotics Olympiad</h6>
+
+                  <!--Text-->
+                  <p class="card-text">
+                    A line following bot that sorts lego blocks according to color.
+                  </p>
+                  <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                  <!-- <a href="<https://github.com/mayukhpankaj/Covid-19-Hotspots>" class="btn ">Read more</a> -->
+                  <br>
+                  <a href="" type="button" class="btn btn-md">Read more</a>
+
+                </div>
+
+              </div>
+
+              <!-- Card -->
+
+                     <!-- Card
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+
+                <div class="view overlay">
+                  <img class="card-img-top" src=" <https://github.com/mayukhpankaj/IIITT-library/blob/master/images/Screenshot%20from%202022-03-22%2002-33-06.png?raw=true>" alt="Card image cap">
+                  <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <div class="card-content ps-3">
+
+                    <div class="icon"><span class="react"><span></span></span></div>
+                    <div class="icon"><span class="express"><span></span></span></div>
+                    <div class="icon"><span class="node"><span></span></span></div>
+
+              </div>
+
+                <div class="card-body">
+
+                  <h4 class="card-title">Library Management</h4>
+
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+
+                  <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+
+                </div>
+
+              </div> -->
+
+              <!-- Card -->
+
+            </div>
+          </div>
+
+         </div>
+
+       </section>
+
+        </div>
+        </section></div>
+
+    <section class="container">
+      <h1 class="display-6 mt-5">Some of my blogs</h1>
+
+      <p class="lead pt-3">
+        I like to share hackathon experience, views on my tech blog.
+        </p>
+
+          <div class="row mt-5 mb-5 text-center">
+              <div class="col-md-4 col-sm-6">
+                  <div class="blog-entry">
+                      <a href="<https://maycodes.medium.com/vaccinater-vaccine-notification-9921869291b5>">
+                          <img class="img-fluid blog-crop text-center" src="./images/octocat.jpeg" width="40%" style="border: 5px;border-color: black;">
+                      </a>
+                      <div class="text p-4 d-block">
+                          <div class="meta mb-3">
+                              <div>Aug 11, 2021
+                                <br>
+                                3 min read
+                                </div>
+                          </div>
+                          <h3 class="heading"><a class="link" href="<https://maycodes.medium.com/vaccinater-vaccine-notification-9921869291b5>">Vaccine Notifications</a></h3>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="blog-entry">
+                    <a href="<https://maycodes.medium.com/bit-mesra-lead-learn-by-doing-9db3db7d842d>">
+                        <img class="img-fluid blog-crop pt-4" src="<https://cloudfilesdm.com/postcards/image-1704385887960.jpeg>" width="90%">
+                    </a>
+                    <div class="text p-4 d-block">
+                        <div class="meta mb-3">
+                            <div> Jun 15, 2021
+                              <br>
+                              5 min read
+                            </div>
+                        </div>
+                        <h3 class="heading"><a class="link" href="<https://maycodes.medium.com/bit-mesra-lead-learn-by-doing-9db3db7d842d>">Instructed in workshop</a></h3>
+                    </div>
+                </div>
+            </div>
+
+              <div class="col-md-4">
+                  <div class="blog-entry">
+                      <a href="<https://maycodes.medium.com/bit-mesra-lead-learn-by-doing-9db3db7d842d>">
+                          <img class="img-fluid blog-crop pt-4" src="./images/ieee_lead.png" width="90%">
+                      </a>
+                      <div class="text p-4 d-block">
+                          <div class="meta mb-3">
+                              <div> Jun 15, 2021
+                                <br>
+                                5 min read
+                              </div>
+                          </div>
+                          <h3 class="heading"><a class="link" href="<https://maycodes.medium.com/bit-mesra-lead-learn-by-doing-9db3db7d842d>">IEEE LEAD</a></h3>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="blog-entry">
+                      <a href="<https://dev.to/mayukh/2021-rewind-3lo1>">
+                          <img class="img-fluid blog-crop" src="./images/rewind.jpg" width="70%">
+                      </a>
+                      <div class="text p-4">
+                          <div class="meta mb-3">
+                              <div> 30 Dec 2021
+                                <br>
+                              2 min read
+                              </div>
+
+                          </div>
+                          <h3 class="heading"><a class="link" href="<https://dev.to/mayukh/2021-rewind-3lo1>">REwind 2021</a></h3>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  </section>
+
+  <section class="container text-center pb-3">
+    <h2 class="display-6 pb-3 ">Experience </h2>
+
+    <div class="row pb-3">
+
+          <div class="club col-sm-12 col-md-12 text-center">
+            <a href="<https://www.akto.io/>" target="blank">
+            <img class="img-fluid  pt-4" src="<https://res.cloudinary.com/zoominfo-com/image/upload/w_70,h_70,c_fit/akto.io>" width="20%">
+            </a>
+            <div class="text lead pb-3 mb-3">
+              <div><strong>SDE Intern</strong>  </div>
+            </div>
+          </div>
+
+      </div>
+
+      <!-- <p class="lead pt-3 text-center">
+        privileged to be part of some prestigious societies of my university
+        <br>
+        contributed to various workshops, events, coding competition
+        </p> -->
+
+    </section>
+
+  <section class="container text-center">
+    <h2 class="display-6 pb-3 ">Societies &amp; Clubs</h2>
+
+    <div class="row ">
+
+          <div class="club col-sm-6 col-md-4">
+            <a href="<https://www.ieeebitmesra.in/>" target="blank">
+            <img class="img-fluid rounded-circle pt-4" src="./images/ieee-1.png" width="30%">
+            </a>
+            <div class="text lead">
+              <div>  </div>
+            </div>
+          </div>
+
+          <div class="club  col-sm-6 col-md-4">
+            <a href="<https://gdsc.community.dev/birla-institute-of-technology-mesra-ranchi/>" target="blank">
+            <img class="img-fluid rounded-circle" src="./images/gdsc.png" width="40%">
+          </a>
+            <div class="text lead">
+              <div>  </div>
+            </div>
+          </div>
+
+          <div class="club  col-sm-6 col-md-4">
+            <a href="<https://sdsbitmesra.in/>" target="blank">
+            <img class="img-fluid rounded-circle" src="./images/sds.png">
+              </a>
+
+          </div>
+
+      </div>
+
+      <p class="lead pt-3 text-center">
+        privileged to be part of some prestigious societies of my university
+        <br>
+        contributed to various workshops, events, coding competition
+        </p>
+
+    </section>
+
+  <div class="container">
+
+```
+
+<!--
+
+<h2 id="codeforces" class="display-6 ml-5 pt-5 mb-5 "> Codeforces Rating <img style="height: 50px;" src="./icons/codeforces.png"> </h2>
+
+```
+    <h4>@ tourist</h4>
+    <p id="rating"></p>
+
+    <p id="submissions"></p> -->
+
+```
+
+<!--
+<h2 id="codeforces" class="display-6 ml-5 pt-5 mb-5 "> Currently   <img style="height: 50px;" src="./icons/codeforces.png"> </h2>
+
+```
+    <h4>Akto.io </h4>
+    <p id="rating"></p>
+
+    <p id="submissions"></p> -->
+
+    <section id="contact">
+
+        <h1 class="display-4 ml-5 pt-5 mb-5 text-center"> Let's connect !  </h1>
+
+            		<!--──────────────Contact────────────────-->
+  <div id="contact">
+	  <!--────social media links─────-->
+
+	    <div class="social-media center">
+      <a href="<https://github.com/mayukhpankaj>" target="_blank"><i class="fab fa-github"></i></a>
+
+		  <a href="<https://www.linkedin.com/in/mayukh-pankaj/>" target="_blank"> <i class="fa-brands fa-linkedin"></i> </a>
+    <!-- <a href="<https://maycodes.medium.com/>" target="_blank"><i class="fab fa-medium"></i></a> -->
+    <a href="mailto:mayukhpankaj30@gmail.com" target="_blank"> <i class="fa fa-envelope"></i></a>
+
+		    <a href="<https://twitter.com/mayukh30>" target="_blank"><i class="fab fa-twitter"></i></a>
+
+	    </div>
+
+    <div class="social-media center" style="margin-top: -2rem;">
+
+    <a href="<https://www.instagram.com/may.code/>" target="_blank"><i class="fa-brands fa-dev"></i></a>
+
+    <a href="<https://maycodes.medium.com/>" target="_blank"> <i class="fa-brands fa-medium"></i></a>
+
+		  <a href="<https://www.instagram.com/may.code/>" target="_blank"><i class="fab fa-instagram"></i></a>
+
+    </div>
+
+    <h6 class="text-center"> I'm always up for a tech talk ;)</h6>
+	  </div>
+
+    <br><br>
+
+    </section>
+
+    </div>
+    <br>
+
+```
+
+<!--
+
+<div class="footer">
+
+```
+        <p><center>Mayukh Pankaj © 2021</center></p>
+
+      </div> -->
+
+      <footer class="copyright text-center">© 2024
+        <span> Mayukh  </span>
+       </footer>
+
+    <script src="main.js"></script>
+
+    <!-- <script src="<https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js>" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> -->
+
+    <script type="text/javascript" src="<https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js>"></script>
+
+```
+
+</body></html>
